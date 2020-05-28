@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 20% auto auto;
+}
+
+.nav {
+  position: fixed;
+  height: 30px;
+  width: 100vw;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 1px 12px #90909073;
+}
+
+.menu {
+  position: fixed;
+}
